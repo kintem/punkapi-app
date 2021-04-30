@@ -1,12 +1,21 @@
 .beerCard {
-  display: flex;
-  width: 100%;
+  border: 1px solid #eee;
+  background-color: rgba(136, 145, 161, 0.5);
+  width: 80%;
   height: 100%;
-  margin: 20px;
+  margin: auto;
+  color: #eee;
 
-  img {
-    width: 30%;
-    height: 80%;
-    margin: 5px;
+  h4 {
+    // text-transform: uppercase;
+  }
+
+  .beerDetails {
+    display: flex;
+  
+    img {
+      width: 20%;
+      margin: 5px;
+    }
   }
 }
