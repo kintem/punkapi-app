@@ -1,13 +1,23 @@
 .beerCard {
-  border: 1px solid #eee;
-  background-color: rgba(136, 145, 161, 0.5);
+  border: 1px solid #9b9a9a;
+  background-color: rgba(96, 105, 121, 0.5);
   width: 80%;
   height: 100%;
   margin: auto;
-  color: #eee;
+  color: #b8b8b8;
+  text-align: center;
+
+  &:hover {
+    border: 1px solid #aad8d3;
+    color: #eee;
+
+    h4 {
+      color: #b8eee8;
+    }
+  }
 
   h4 {
-    // text-transform: uppercase;
+    margin: 10px;
   }
 
   .beerDetails {

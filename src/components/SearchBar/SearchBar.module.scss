@@ -1,8 +1,40 @@
 .searchBar {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 5px 15px 15px;
 
-  input {
-    margin: 0 30px 0 10px;
+  .searchInput {
+    background-color: rgba(151, 158, 168, 0.5);
+    border: 1px solid rgb(180, 180, 180);
+    color: #4ac1c7;
+
+    &::placeholder {
+      color: #4ac1c7;
+    }
+  }
+
+  .filterContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    input {
+      margin: 5px 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .searchBar {
+    flex-direction: column;
+
+    .filterContainer {
+      flex-direction: column;
+
+      input {
+        margin: 10px;
+      }
+    }
   }
 }

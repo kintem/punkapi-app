@@ -4,3 +4,9 @@
   margin: 20px auto;
   gap: 30px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .beerContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

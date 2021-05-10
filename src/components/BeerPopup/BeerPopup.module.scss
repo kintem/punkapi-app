@@ -1,0 +1,16 @@
+.beerPopup {
+  background-color: #eee;;
+  position: absolute;
+  width: 60%;
+  display: flex;
+  border: 1px solid #00adb5;
+
+  .text {
+    margin: 10px;
+  }
+
+  img {
+    width: 25%;
+    margin: 10px;
+  }
+}
