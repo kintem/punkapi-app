@@ -15,9 +15,6 @@ const BeerCard = (props) => {
       <div>
         <p>ABV: {beer.abv}</p>
         <p>PH: {beer.ph}</p>
-      {/* <div className={styles.description} onHover={}>
-        <p>{beer.description}</p>
-      </div> */}
       </div>
       </div>
     </div>
